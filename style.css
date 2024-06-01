@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Sevillana&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.background {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+}
+
+.background img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+nav {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links a:not(:last-child){
+    margin-right: 20px;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+nav .logo span {
+    color: #b0e999;
+}
+
+nav .links a{
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+nav .links a:hover {
+    color: #b0e999;
+    border-bottom: 1px solid #b0e999;
+}
+
+nav .sign-up button {
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 13px;
+}
+
+nav .sign-up button.login {
+    transition: all 0.3s ease;
+}
+
+nav .sign-up button.login:hover {
+    color: rgb(138, 192, 142);
+    cursor: pointer;
+}
+
+nav .sign-up button.login:active {
+    color: rgb(41, 148, 49);
+}
+
+nav .sign-up button.get-started {
+    background-color: rgb(92, 151, 97);
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+nav .sign-up button.get-started:hover {
+    cursor: pointer;
+    background-color: rgb(56, 102, 61);
+}
+
+nav .sign-up button.get-started:active {
+    background-color: rgb(27, 78, 33);
+}
+
+header .container {
+    padding: 0 200px;
+    height: 700px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+header .container h1 {
+    font-size: 61px;
+    font-family: "Sevillana", cursive;;
+    font-weight: 100;
+}
+
+header .container h3 {
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 15px;
+    opacity: 60%;
+}
+
+header .container h2 {
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #ffffffc9;
+}
+
+header .container p {
+    color: #a7a6a6c2;
+}
+
+.bearer {
+    background-color: #fff;
+}
+
+.container2 {
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .biology {
+    background-color: #fff;
+    text-align: justify;
+    padding: 0 50px;
+    height: 550px;
+    width: 700px;
+    position: relative;
+    top: -200px;
+    box-shadow: 0 15px 30px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 .biology h1 {
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.container2 .biology h1 span {
+    color: #54aa33;
+}
+
+.container2 .biology p {
+    font-size: 25px;
+}
+
+.container2 .biology p span {
+    color: #54aa33;
+}
+
+.concept .microsporogenesis {
+    margin-top: 300px;
+}
+
+.concept .microsporogenesis h1, .fertilization h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.concept .microsporogenesis .narration, .fertilization .narration {
+    text-align: justify;
+    padding: 0 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.concept .microsporogenesis .narration img{
+    width: 500px;
+    height: auto;
+}
+
+.concept .microsporogenesis .narration p span {
+    color: #54aa33;
+}
+
+.concept .megasporogenesis {
+    margin-top: 400px;
+}
+
+.concept .megasporogenesis h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.concept .megasporogenesis .narration{
+    text-align: justify;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.concept .megasporogenesis .narration p span {
+    color: #54aa33;
+}
+
+.concept .megasporogenesis .narration img {
+    width: 600px;
+    height: auto;
+}
+
+.concept .fertilization {
+    margin-top: 400px;
+}
+
+.concept .fertilization .narration p span {
+    color: #54aa33;
+}
+
+.concept .fertilization .narration img{
+    width: 500px;
+    height: auto;
+}
+
+.concept .development-of-new-sporophyte {
+    margin-top: 500px;
+    padding-bottom: 500px;
+}
+
+.concept .development-of-new-sporophyte h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.concept .development-of-new-sporophyte .narration{
+    text-align: justify;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.concept .development-of-new-sporophyte .narration p span {
+    color: #54aa33;
+}
+
+.concept .development-of-new-sporophyte .narration img {
+    width: 600px;
+    height: auto;
+}
+
+footer {
+    color: #fff;
+    background-color: #000000bd;
+    padding: 20px;
+}
+
+footer .footer {
+    padding:50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .left h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 50;
+}
+
+footer .footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px
+}
+
+footer .footer .right .links a {
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+footer .footer .right .links a:hover {
+    color: #6eb852;
+}
+
+footer .footer .right .links a:not(:last-child) {
+    margin-right: 25px;
+}
+
+footer .footer .right .icons {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    gap: 20px;
+}
+
+footer .footer .right .icons a {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer .footer .right .icons .icons-c i:not(:last-child) {
+    margin-right: 15px;
+}
+
+footer .footer .right .icons .icons-c i {
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .footer .right .icons .icons-c i:hover {
+    color: #54aa33;
+    font-size: 40px;
+}
+
+footer .footer .right p {
+    color: #707070;
+}
+
+.footer .left .director h3 {
+    font-weight: 10;
+}
+
+.footer .left .director {
+    margin-top: 70px;
+    margin-left: 100px;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 250px;
+    height: 200px;
+    border-left: 7px solid #54aa33;
+}
+
+.footer .left .director .director2 {
+    padding-top: 10px;
+    width: 250px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .left .director .director2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 3px solid #6eb852;
+}
+
+.footer .left .director .director2 .paragraph {
+    padding-top: 5px;
+}
+
+.footer .left .director .director2 .paragraph p {
+    padding-top: 3px;
+    color: #ffffffa1;
+}
+
+.footer .left .director .semidirector h3 {
+    padding-bottom: 10px;
+}
